@@ -1,0 +1,5 @@
+begin
+  declare
+    id0 : string;
+  id0 := "a"
+end

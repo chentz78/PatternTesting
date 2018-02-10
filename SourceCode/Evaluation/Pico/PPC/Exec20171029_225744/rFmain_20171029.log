@@ -1,0 +1,79 @@
+Importing PPC_CC.mts
+Mutation config:
+TestSet: testPicoPatt.rsc
+T. S. Prefix: Exec
+Module Under Test: mainCC.rsc
+Func. Under Test: calcCC
+T. C. File Ext.: pico
+Date: 20171029_225744
+Mutation Size Limit: 15
+Use Mutation cache from : Mutations
+Running the test set for the first time...
+Running the module internal tests...
+Rascal Shell File: /Users/chentz/L/CWI/Rascal/bin/rascal-0.8.4-20170622.094421-159.jar
+Base dir:/Users/chentz/L/srcCode/MuExecution/Pico/PPC
+Version: unknown
+[0;1;30mrascal>[22;0mimport IO;
+ok
+[0;1;30mrascal>[22;0mimport TR_tmp20171029225753;
+ok
+[0;1;30mrascal>[22;0mgenTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);
+loc: [0;34;4m|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt_testSet.txt|[m
+[0;1;30mrascal>[22;0m
+/Users/chentz/L/srcCode/bin/runRascal.sh TR_tmp20171029225753.rsc "runTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);"
+Rascal Shell File: /Users/chentz/L/CWI/Rascal/bin/rascal-0.8.4-20170622.094421-159.jar
+Base dir:/Users/chentz/L/srcCode/MuExecution/Pico/PPC
+Version: unknown
+[0;1;30mrascal>[22;0mimport IO;
+ok
+[0;1;30mrascal>[22;0mimport TR_tmp20171029225753;
+ok
+[0;1;30mrascal>[22;0mrunTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);
+TD_1.pico:2
+TD_2.pico:2
+TestExec tcTD_1 : true
+TestExec tcTD_2 : true
+---------------
+Total TC: 2
+Success TC: 2 (1.0)
+Fail TC: 0
+ok
+[0;1;30mrascal>[22;0mTest set OK! Start the mutation process...
+Module Loc: |file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/mainCC.rsc|
+Mutation set size: 15
+Mutation process log: Exec_MUTMP_20171029_225744.log
+Coping mutation from Mutations...
+
+Mutation list: ["Exec_MU_mainCCBSR5_0.rsc","Exec_MU_mainCCPWA_0.rsc","Exec_MU_mainCCPWA_1.rsc"]
+
+Backuping the module under test
+Creating the result folder...
+Running test over mutation Exec_MU_mainCCBSR5_0.rsc
+Renaming Exec_MU_mainCCBSR5_0 to mainCC
+Executing mutation Exec_MU_mainCCBSR5_0.rsc (1)
+TestExec tcTD_1 : fail:mutant! BSR5: Remove for conditionals.
+TestExec tcTD_2 : fail:mutant! BSR5: Remove for conditionals.
+Mutant Exec_MU_mainCCBSR5_0.rsc was killed!
+-- [0;31mMu. Stats[0m: Qtd.:        3, Curr. Mu: 1, Killed: 1
+
+Running test over mutation Exec_MU_mainCCPWA_0.rsc
+Renaming Exec_MU_mainCCPWA_0 to mainCC
+Executing mutation Exec_MU_mainCCPWA_0.rsc (2)
+TestExec tcTD_1 : fail:mutant! PWA: Remove action from pattern and action.
+TestExec tcTD_2 : true
+Mutant Exec_MU_mainCCPWA_0.rsc was killed!
+-- [0;31mMu. Stats[0m: Qtd.:        3, Curr. Mu: 2, Killed: 2
+
+Running test over mutation Exec_MU_mainCCPWA_1.rsc
+Renaming Exec_MU_mainCCPWA_1 to mainCC
+Executing mutation Exec_MU_mainCCPWA_1.rsc (3)
+TestExec tcTD_1 : true
+TestExec tcTD_2 : fail:mutant! PWA: Remove action from pattern and action.
+Mutant Exec_MU_mainCCPWA_1.rsc was killed!
+-- [0;31mMu. Stats[0m: Qtd.:        3, Curr. Mu: 3, Killed: 3
+
+
+Number mutants: 3
+Killed mutants: 3
+Moving result files...
+Done!

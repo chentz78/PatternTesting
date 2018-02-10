@@ -1,0 +1,27 @@
+| 5199 | 2 | 1 | ``Assignable assn:(Assignable)`<Assignable ar> [ <Expression sub> ]`, bool top, Configuration c`` |
+
+Line 5221 on CheckTypes (External patt): 
+
+``if ((Expression)`<DecimalIntegerLiteral dil>` := sub) {``
+
+| 5260 | 2 | 2 | ``Assignable assn:(Assignable)`<Assignable ar> [ <OptionalExpression optFirst> .. <OptionalExpression optLast> ]`, bool top, Configuration c`` |
+
+Line 5266 on CheckTypes (External patt): 
+
+``if ((OptionalExpression)`<Expression eFirst>` := optFirst)``
+
+Line 5269 on CheckTypes (External patt): 
+
+``if ((OptionalExpression)`<Expression eLast>` := optLast)``
+
+| 5296 | 2 | 2 | ``Assignable assn:(Assignable)`<Assignable ar> [ <OptionalExpression optFirst>, <Expression second> .. <OptionalExpression optLast> ]`, bool top, Configuration c`` |
+
+Line 5300 on CheckTypes (External patt):
+
+``if ((OptionalExpression)`<Expression eFirst>` := optFirst)``
+
+Line 5306 on CheckTypes (External patt): 
+
+``if ((OptionalExpression)`<Expression eLast>` := optLast)``
+
+

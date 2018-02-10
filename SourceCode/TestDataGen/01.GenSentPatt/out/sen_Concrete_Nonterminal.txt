@@ -1,0 +1,1 @@
+genSymbolsRascal Sym:	Nonterminal	sentLimit:	70	FNOut:	sen_Concrete_Nonterminal.out

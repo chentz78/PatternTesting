@@ -1,0 +1,1 @@
+genSymbolsRascal Sym:	QualifiedName	sentLimit:	70	FNOut:	sen_Concrete_QualifiedName.out

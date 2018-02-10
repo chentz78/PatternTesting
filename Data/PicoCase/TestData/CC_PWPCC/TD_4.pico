@@ -1,0 +1,1 @@
+begin declare id0 : natural ; id0 := id0 - id0 end

@@ -1,0 +1,59 @@
+Runtime options loaded from Grammars/Rascal.conf
+Runtime Options:
+{[GrammarFile]="Grammars/Rascal.lua", [coverageCrit]="productionCoverage", [execMode]="gen", [filePrefix]="tmp/Rascal.prod.17", [maxCycles]="1", [maxCyclesOp]="1", [maxDerivLen]="17", [quietExec]="false", [transGrammarCache]="false"}
+Executing Sentences Generation:
+Apply Grammar Transformations...
+Stating the Generation Process...
+genCustom:runConf	{[GrammarFile]="Grammars/Rascal.lua", [coverageCrit]="productionCoverage", [execMode]="gen", [filePrefix]="tmp/Rascal.prod.17", [maxCycles]="1", [maxCyclesOp]="1", [maxDerivLen]="17", [quietExec]="false", [transGrammarCache]="false"}
+genCustom: Min. Tree Height info is missed!
+ProductionCoverage.initGen	1	17
+There are warnings about the grammar elements!
+{[1]="Some non-terminals are defined but not used."}
+{'Command#1','Command#2','Command#3','Command#4','Command#5','Commands#1','Comment#1','EvalCommand#1','EvalCommand#2','EvalCommand#3','EvalCommand#4','KeywordArgument#1','Output#1','RascalKeywords#1','RascalKeywords#10','RascalKeywords#11','RascalKeywords#12','RascalKeywords#13','RascalKeywords#14','RascalKeywords#15','RascalKeywords#16','RascalKeywords#17','RascalKeywords#18','RascalKeywords#19','RascalKeywords#2','RascalKeywords#20','RascalKeywords#21','RascalKeywords#22','RascalKeywords#23','RascalKeywords#24','RascalKeywords#25','RascalKeywords#26','RascalKeywords#27','RascalKeywords#28','RascalKeywords#29','RascalKeywords#3','RascalKeywords#30','RascalKeywords#31','RascalKeywords#32','RascalKeywords#33','RascalKeywords#34','RascalKeywords#35','RascalKeywords#36','RascalKeywords#37','RascalKeywords#38','RascalKeywords#39','RascalKeywords#4','RascalKeywords#40','RascalKeywords#41','RascalKeywords#42','RascalKeywords#43','RascalKeywords#44','RascalKeywords#45','RascalKeywords#46','RascalKeywords#47','RascalKeywords#48','RascalKeywords#49','RascalKeywords#5','RascalKeywords#50','RascalKeywords#51','RascalKeywords#52','RascalKeywords#53','RascalKeywords#54','RascalKeywords#55','RascalKeywords#56','RascalKeywords#57','RascalKeywords#58','RascalKeywords#59','RascalKeywords#6','RascalKeywords#60','RascalKeywords#61','RascalKeywords#62','RascalKeywords#63','RascalKeywords#64','RascalKeywords#65','RascalKeywords#66','RascalKeywords#67','RascalKeywords#68','RascalKeywords#69','RascalKeywords#7','RascalKeywords#70','RascalKeywords#71','RascalKeywords#72','RascalKeywords#8','RascalKeywords#9','ShellCommand#1','ShellCommand#10','ShellCommand#11','ShellCommand#2','ShellCommand#3','ShellCommand#4','ShellCommand#5','ShellCommand#6','ShellCommand#7','ShellCommand#8','ShellCommand#9'}
+ProductionCoverage.initGen	Time to the function:	5.568355
+Sent. Count:	0
+ProductionCoverage{0}
+Sent. Num:	10
+Sent. Num:	20
+Sent. Num:	30
+Sent. Num:	40
+Sent. Num:	50
+Sent. Num:	60
+Sent. Num:	70
+Sent. Num:	80
+Sent. Num:	90
+Sent. Num:	100
+Sent. Num:	110
+Sent. Num:	120
+Sent. Count:	1500
+ProductionCoverage{0}
+Sent. Count:	3000
+ProductionCoverage{0}
+Sent. Count:	4500
+ProductionCoverage{0}
+--------Starting Debug information-------
+Debug useMStorage:	false
+Debug useMinTSortAlts:	false
+Debug useRandomAlts:	false
+Debug useMinTSortNT:	false
+Debug non_terminal:   time: 2.599993, global perc.: 5.609, count: 338781 and use memoize: 0
+Debug >>Decision      time: 1.889645, local  perc.: 72.679 and count: 338781
+Debug Seq:            time: 1.242883, global perc.: 2.681, count: 416310 and use memoize: false
+Debug Alt:            time: 30.018255, global perc.: 64.757, count: 48933 and use memoize: 0
+Debug >>Check Patt.   time: 2.043937, local  perc.: 6.809 and count: 48933
+Debug Terminal:       time: 1.435467, global perc.: 3.097, count: 277167 and use memoize: false
+Debug Kleene:         time: 0.072732, global perc.: 0.157, count: 19197 and use memoize: false
+Debug AllMeasurement: time: 35.369330 and global perc.: 76.301
+Debug Total S. Processing : 0.611437 and global perc.: 1.319
+Debug Total Gen.      time: 46.35527
+Debug Gen.            rate: 2.78 sent./time unit
+Debug Gen. rate (Gen+Disc): 110.65 sent./time unit
+Debug NTExp Discard: 286625, call perc.: 84.605
+Debug Memory usage:  22050.31 Kbytes
+----------End Debug----------------------
+Num. Sentences: 129
+Highest Deriv. Tree: 17
+Disc. Sentences: 5000
+ProductionCoverage.finalizeGen	ProductionCoverage{43.778801843318}
+MD5 out file: 1ad0-8c8d, 1ad0769872c28fad0c025b0f9ea28c8d
+RunGrammar have been finished!

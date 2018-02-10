@@ -1,0 +1,11 @@
+descendant%{"checkSyntax"}%Nonterminal%{"Nonterminal"}%{}%{"external"}%p118
+descendant%{"concreteType"}%Symbol%{}%{}%{}%p124
+descendant%{"extractPatternTree"}%hole%{"hole","Sym","\\one","Name"}%{}%{"external"}%p134
+descendant%{"importProduction"}%Production%{}%{}%{}%p142
+descendant%{"arityFailures"}%!error%{}%{}%{}%p2
+descendant%{"calculatePatternType"}%!error%{}%{}%{}%p53
+descendant%{"calculatePatternType"}%PatternTree%{}%{}%{}%p54
+descendant%{"calculatePatternType"}%PatternTree%{}%{}%{}%p55
+descendant%{"calculatePatternType"}%callOrTreeNode%{}%{}%{}%p56
+descendant%{"checkAssignment"}%AssignableTree%{}%{}%{}%p60
+descendant%{"checkAssignment"}%AssignableTree%{}%{}%{}%p61

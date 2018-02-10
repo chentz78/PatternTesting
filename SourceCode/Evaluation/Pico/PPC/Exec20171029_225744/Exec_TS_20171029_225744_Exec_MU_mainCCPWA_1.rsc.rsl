@@ -1,0 +1,2 @@
+TestExec tcTD_1 : true
+TestExec tcTD_2 : fail:mutant! PWA: Remove action from pattern and action.

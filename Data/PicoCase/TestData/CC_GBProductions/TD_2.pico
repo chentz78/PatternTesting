@@ -1,0 +1,5 @@
+begin
+  declare
+    id0 : natural;
+  id0 := "a"
+end

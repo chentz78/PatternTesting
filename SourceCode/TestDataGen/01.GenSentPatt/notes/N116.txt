@@ -1,0 +1,33 @@
+module N116 [ & N116_1 ] private ( value ) N116_2 = ( ( ) ) ` ` , N116_3 = + { } !:= { filter ; } ;
+
+Checking file N116.rsc ...
+Module N116.rsc parsed!
+|std:///lang/rascal/types/CheckTypes.rsc|(174180,25,<3283,16>,<3283,41>): The called signature: extractPatternTree(Pattern, Configuration),
+does not match the declared signature:	
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); 
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); 
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); 
+BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern); BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);  BindResult extractPatternTree(Pattern, Configuration); (concrete pattern);
+
+Advice: |http://tutor.rascal-mpl.org/Errors/Static/ArgumentMismatch/ArgumentMismatch.html|
+
+From command-line:
+
+rascal>import N116;
+|cwd:///N116.rsc|(52,11,<1,52>,<1,63>): Syntax error: concrete syntax fragment
+Advice: |http://tutor.rascal-mpl.org/Errors/Static/SyntaxError/SyntaxError.html|
+
+A type checker error, the rascal version command line rascal-0.8.4-20170622.094421-159.jar

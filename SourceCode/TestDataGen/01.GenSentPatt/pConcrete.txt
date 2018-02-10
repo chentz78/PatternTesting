@@ -1,0 +1,47 @@
+concrete%{"checkModule"}%Declaration%{"UserType","Visibility","Tags","Type"}%{" ","alias",";","="}%{"external"}%p100
+concrete%{"checkModule"}%Declaration%{"Name","Visibility","Kind","Tags","Type"}%{" ","tag",";","on"}%{"external"}%p101
+concrete%{"checkModule"}%Declaration%{"UserType","Visibility","Tags"}%{" ","data",";"}%{"external"}%p102
+concrete%{"checkModule"}%Declaration%{"UserType","CommonKeywordParameters","Visibility","Tags"}%{" ","data",";"}%{"external"}%p103
+concrete%{"checkModule"}%Declaration%{"CommonKeywordParameters","Visibility","Tags","Variant","UserType"}%{" ","data",";","="}%{"external"}%p104
+concrete%{"checkModule"}%Declaration%{"FunctionDeclaration"}%{}%{"external"}%p105
+concrete%{"checkStmt"}%Target%{"Name"}%{}%{"external"}%p110
+concrete%{"checkStmt"}%DataTarget%{"Name"}%{":"}%{"external"}%p111
+concrete%{"checkStmt"}%LocalVariableDeclaration%{"Declarator"}%{}%{"external"}%p113
+concrete%{"checkStmt"}%LocalVariableDeclaration%{"Declarator"}%{"dynamic"}%{"external"}%p114
+concrete%{"checkStmt"}%Declarator%{"Type","Variable"}%{" "}%{"external"}%p115
+concrete%{"checkStmt"}%Variable%{"Name","Expression"}%{"="}%{"external"}%p116
+concrete%{"checkSyntax"}%Import%{"SyntaxDefinition"}%{}%{"external"}%p117
+concrete%{"extractPatternTree"}%Pattern%{"Pattern"}%{":"}%{"external"}%p133
+concrete%{"extractPatternTree"}%Pattern%{"KeywordArgument","Pattern","OptionalComma"}%{" "}%{"external"}%p135
+concrete%{"getDeclarationNames"}%FunctionDeclaration%{"Visibility","Signature","Tags"}%{" ",";"}%{"external"}%p137
+concrete%{"getDeclarationNames"}%FunctionDeclaration%{"Visibility","Tags","Signature","Expression"}%{" ",";","="}%{"external"}%p138
+concrete%{"getDeclarationNames"}%FunctionDeclaration%{"Visibility","Tags","Signature","Expression"}%{" ","when",";","="}%{"external"}%p139
+concrete%{"getDeclarationNames"}%FunctionDeclaration%{"Visibility","Signature","Tags","FunctionBody"}%{" "}%{"external"}%p140
+concrete%{"getParameters"}%Sym%{"Nonterminal"}%{"&"}%{"external"}%p141
+concrete%{"buildAssignableTree"}%Expression%{"DecimalIntegerLiteral"}%{}%{"external"}%p46
+concrete%{"buildAssignableTree"}%OptionalExpression%{"Expression"}%{}%{"external"}%p47
+concrete%{"buildAssignableTree"}%OptionalExpression%{"Expression"}%{}%{"external"}%p48
+concrete%{"checkCatch"}%Pattern%{"QualifiedName"}%{}%{"external"}%p64
+concrete%{"checkConstructorKeywordParams"}%CommonKeywordParameters%{"KeywordFormal"}%{"(",")"}%{"external"}%p65
+concrete%{"checkConstructorKeywordParams"}%KeywordFormals%{"OptionalComma","KeywordFormal"}%{" "}%{"external"}%p66
+concrete%{"checkDeclaration"}%Variable%{"Name","Expression"}%{"="}%{"external"}%p68
+concrete%{"checkDeclaration"}%Variable%{"Name"}%{}%{"external"}%p69
+concrete%{"checkDeclaration"}%Variable%{"Name","Expression"}%{"="}%{"external"}%p70
+concrete%{"checkExp"}%Label%{"Name"}%{":"}%{"external"}%p72
+concrete%{"checkExp"}%Expression%{"KeywordArgument","OptionalComma","Expression"}%{" "}%{"external"}%p74
+concrete%{"checkExp"}%Expression%{"Expression"}%{":"}%{"external"}%p75
+concrete%{"checkExp"}%Expression%{}%{"_"}%{"external"}%p76
+concrete%{"checkExp"}%OptionalExpression%{"Expression"}%{}%{"external"}%p78
+concrete%{"checkExp"}%OptionalExpression%{"Expression"}%{}%{"external"}%p79
+concrete%{"checkExp"}%Field%{"IntegerLiteral"}%{}%{"external"}%p80
+concrete%{"checkExp"}%Field%{"Name"}%{}%{"external"}%p81
+concrete%{"checkFormals"}%Pattern%{"Name","Type"}%{" "}%{"external"}%p84
+concrete%{"checkFunctionDeclaration"}%FunctionBody%{"Statement"}%{"{","}"}%{"external"}%p85
+concrete%{"checkLocationLiteral"}%Expression%{"Expression"}%{}%{"external"}%p90
+concrete%{"checkModule"}%Import%{"ImportedModule"}%{"extend",";"}%{"external"}%p91
+concrete%{"checkModule"}%Import%{"ImportedModule"}%{"import",";"}%{"external"}%p92
+concrete%{"checkModule"}%Import%{"ImportedModule"}%{"extend",";"}%{"external"}%p93
+concrete%{"checkModule"}%Body%{"Toplevel"}%{}%{"external"}%p96
+concrete%{"checkModule"}%Toplevel%{"Declaration"}%{}%{"external"}%p97
+concrete%{"checkModule"}%Declaration%{"Visibility","Tags","Type","Variable"}%{" ",";"}%{"external"}%p98
+concrete%{"checkModule"}%Declaration%{"Name","Visibility","Tags","Type"}%{"anno",";"," ","@"}%{"external"}%p99

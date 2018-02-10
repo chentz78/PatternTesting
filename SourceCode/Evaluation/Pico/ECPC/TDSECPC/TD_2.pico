@@ -1,0 +1,1 @@
+begin declare id0 : natural ; while id0 do od end

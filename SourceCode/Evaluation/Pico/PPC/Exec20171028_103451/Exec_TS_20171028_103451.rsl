@@ -1,0 +1,29 @@
+Rascal Shell File: /Users/chentz/L/CWI/Rascal/bin/rascal-0.8.4-20170622.094421-159.jar
+Base dir:/Users/chentz/L/srcCode/MuExecution/Pico/PPC
+Version: unknown
+[0;1;30mrascal>[22;0mimport IO;
+ok
+[0;1;30mrascal>[22;0mimport TR_tmp20171028103501;
+ok
+[0;1;30mrascal>[22;0mgenTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);
+loc: [0;34;4m|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt_testSet.txt|[m
+[0;1;30mrascal>[22;0m
+runRascal.sh TR_tmp20171028103501.rsc "runTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);"
+Rascal Shell File: /Users/chentz/L/CWI/Rascal/bin/rascal-0.8.4-20170622.094421-159.jar
+Base dir:/Users/chentz/L/srcCode/MuExecution/Pico/PPC
+Version: unknown
+[0;1;30mrascal>[22;0mimport IO;
+ok
+[0;1;30mrascal>[22;0mimport TR_tmp20171028103501;
+ok
+[0;1;30mrascal>[22;0mrunTestSet(|file:///Users/chentz/L/srcCode/MuExecution/Pico/PPC/testPicoPatt.rsc|);
+TD_1.pico:2
+TD_2.pico:2
+TestExec tcTD_1 : true
+TestExec tcTD_2 : true
+---------------
+Total TC: 2
+Success TC: 2 (1.0)
+Fail TC: 0
+ok
+[0;1;30mrascal>[22;0m

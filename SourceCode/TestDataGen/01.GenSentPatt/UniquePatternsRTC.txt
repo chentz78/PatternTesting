@@ -1,0 +1,181 @@
+runRascal.sh parseCheckTypes.rsc 'uniquePattList();'
+Base dir:/Users/chentz/L/srcCode/PatternExtraction
+Version: unknown
+[0;1mrascal>[22;0mimport IO;
+ok
+[0;1mrascal>[22;0mimport parseCheckTypes;
+ok
+[0;1mrascal>[22;0muniquePattList();
+Starting the meta-program analysis...
+Module: |home:///L/rascal-build/rascal/src/org/rascalmpl/library/lang/rascal/types/CheckTypes.rsc|
+Module Info: d6b7ee797fd53f1e895935e78367eeb1 , $2017-02-15T15:10:39.000+00:00$
+Compile time: 4616
+mExtractPattStructure:Extracting the pattern set...
+mExtractPattStructure:Extraction done!
+mExtractPattStructure:Extraction time: 22155
+p1%Configuration addNameWarning(Configuration c, RName n, loc l)%\module(_,_)
+p10%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%mapNode(mc)
+p100%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> alias <UserType _> = <Type _> ;`
+p101%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> tag <Kind _> <Name _> on <{Type ","}+ _> ;`
+p102%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> data <UserType _> ;`
+p103%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> data <UserType _> <CommonKeywordParameters _>;`
+p104%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> data <UserType _> <CommonKeywordParameters commonKeywordParameters> = <{Variant "|"}+ _> ;`
+p105%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<FunctionDeclaration _>`
+p106%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%singleton(itemName)
+p107%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%component(itemNames)
+p108%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%variable(_,rt1,true,_,_)
+p109%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%variable(_,rt2,true,_,_)
+p11%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%mapNodeInfo(dt,rt)
+p110%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(Target)`<Name n>`
+p111%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(DataTarget)`<Name n>:`
+p112%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%visitLabel()
+p113%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(LocalVariableDeclaration)`<Declarator d>`
+p114%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(LocalVariableDeclaration)`dynamic <Declarator d>`
+p115%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(Declarator)`<Type t> <{Variable ","}+ vars>`
+p116%CheckResult checkStmt(Statement stmt:(Statement)`assert <Expression e>;`, Configuration c)%(Variable)`<Name n> = <Expression _ >`
+p117%Configuration checkSyntax(list[Import] defs, Configuration c)%(Import) `<SyntaxDefinition syn>`
+p118%Configuration checkSyntax(list[Import] defs, Configuration c)%/Nonterminal t
+p119%bool comparableOrNum(Symbol l, Symbol r)%Symbol::\int()
+p12%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%callOrTreeNode(pth, ptargs, kpargs)
+p120%bool comparableOrNum(Symbol l, Symbol r)%Symbol::\real()
+p121%bool comparableOrNum(Symbol l, Symbol r)%Symbol::\rat()
+p122%Symbol computeAdditionType(Symbol t1, Symbol t2, loc l)%\overloaded(nd1,d1)
+p123%Symbol computeAdditionType(Symbol t1, Symbol t2, loc l)%\overloaded(nd2,d2)
+p124%bool concreteType(Symbol t)%/Symbol ti
+p125%bool concreteType(Symbol t)%\failure(_)
+p126%bool concreteType(Symbol t)%\inferred(_)
+p127%CheckResult convertAndExpandThrowType(Type t, Configuration c)%constructor(_,_,_,_,_)
+p128%CheckResult convertAndExpandThrowType(Type t, Configuration c)%overload(_,overloaded(_,defaults))
+p129%CheckResult convertAndExpandThrowType(Type t, Configuration c)%\func(utc:\user(rn,pl), ps, kws)
+p13%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodePlus(n,_,rt,nid)
+p130%CheckResult convertAndExpandUserType(UserType t, Configuration c)%\user(utn,utps)
+p131%Graph[IGComponent] directedConnectedComponents(RName entryNode, ImportGraph ig)%singleton(n)
+p132%Graph[IGComponent] directedConnectedComponents(RName entryNode, ImportGraph ig)%component(ns)
+p133%BindResult extractPatternTree(Pattern pat:(Pattern)`{ <{Pattern ","}* ps> }`, Configuration c)%(Mapping[Pattern])`<Pattern pd> : <Pattern pr>`
+p134%BindResult extractPatternTree(Pattern pat:(Pattern)`{ <{Pattern ","}* ps> }`, Configuration c)%/hole(\one(Sym sym, Name n))
+p135%BindResult extractPatternTree(Pattern pat:(Pattern)`{ <{Pattern ","}* ps> }`, Configuration c)%(KeywordArguments[Pattern])`<OptionalComma oc> <{KeywordArgument[Pattern] ","}+ kargs>`
+p136%Configuration finalizeFunctionImport(Configuration c, RName functionName)%overload(items,overloaded(set[Symbol] nonDefaults, set[Symbol] defaults))
+p137%set[RName] getDeclarationNames(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`)%(FunctionDeclaration)`<Tags tags> <Visibility vis> <Signature sig>;`
+p138%set[RName] getDeclarationNames(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`)%(FunctionDeclaration)`<Tags tags> <Visibility vis> <Signature sig> = <Expression exp>;`
+p139%set[RName] getDeclarationNames(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`)%(FunctionDeclaration)`<Tags tags> <Visibility vis> <Signature sig> = <Expression exp> when <{Expression ","}+ conds>;`
+p14%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodeStar(n,_,rt,nid)
+p140%set[RName] getDeclarationNames(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`)%(FunctionDeclaration)`<Tags tags> <Visibility vis> <Signature sig> <FunctionBody body>`
+p141%list[Nonterminal] getParameters((Sym) `<Nonterminal _>[<{Sym ","}+ params>]`)%(Sym) `&<Nonterminal t>`
+p142%Configuration importProduction(RSignatureItem item, Configuration c, bool registerName=true)%/Production p
+p143%Configuration importProduction(RSignatureItem item, Configuration c, bool registerName=true)%label(str l, Symbol _)
+p144%bool inBooleanScope(Configuration c)%booleanScope(_,_)
+p145%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%overload(set[int] items, Symbol rtype)
+p146%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%variable(RName name, Symbol rtype, bool inferred, int containedIn, loc at)
+p147%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%function(RName name, Symbol rtype, KeywordParamMap keywordParams, bool isVarArgs, int containedIn, list[Symbol] throwsTypes, bool isDeferred, loc at)
+p148%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%datatype(RName name, Symbol rtype, KeywordParamMap keywordParams, int containedIn, set[loc] ats)
+p149%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%sorttype(RName name, Symbol rtype, int containedIn, set[loc] ats)
+p15%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodePlus(n,nid)
+p150%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%constructor(RName name, Symbol rtype, KeywordParamMap keywordParams, int containedIn, loc at)
+p151%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%production(RName name, Symbol rtype, int containedIn, Production p, loc at)
+p152%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%annotation(RName name, Symbol rtype, Symbol onType, int containedIn, loc at)
+p153%Configuration loadConfiguration(Configuration c, Configuration d, RName mName, set[RName] toImport, set[RName] allImports, bool updateTypes=false)%\alias(RName name, Symbol rtype, int containedIn, loc at)
+p154%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\sort(n)
+p155%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\lex(n)
+p156%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\layouts(n)
+p157%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\keywords(n)
+p158%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\parameterized-sort(n,ps)
+p159%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\parameterized-lex(n,_)
+p16%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodeStar(n,nid)
+p160%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\parameterized-lex(n,ps)
+p161%tuple[Production,Configuration] resolveProduction(Production prod, loc l, Configuration c, bool imported)%\parameterized-sort(n,_)
+p162%CheckResult resolveSorts(Symbol sym, loc l, Configuration c)%sort(str name)
+p163%Symbol undefer(Symbol t)%deferred(dt)
+p17%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%multiNameNode(n,nid)
+p18%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%variable(_,_,_,_,_)
+p19%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%def(n,nid)
+p2%set[PatternTree] arityFailures(PatternTree pt)%/PatternTree pti:callOrTreeNode(_,_,_)
+p20%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%use(n,nid)
+p21%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%setNode(cs)
+p22%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%listNode(cs)
+p23%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%nameNode(RSimpleName("_"),nid)
+p24%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%nameNode(rn,nid)
+p25%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%multiNameNode(RSimpleName("_"),nid)
+p26%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%multiNameNode(rn,nid)
+p27%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%spliceNodeStar(rn,nid)
+p28%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%spliceNodeStar(rn,_,nt,nid)
+p29%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%spliceNodePlus(rn,nid)
+p3%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%multiNameNode(_,_)
+p30%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%spliceNodePlus(rn,_,nt,nid)
+p31%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%negativeNode(cp)
+p32%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%literalNode(Symbol nt)
+p33%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%literalNode(list[LiteralNodeInfo] names)
+p34%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%tupleNode(cs)
+p35%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%typedNameNode(n, l, nt, nid)
+p36%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%mapNode(list[MapNodeInfo] mapChildren)
+p37%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%mapNodeInfo(d1,r1)
+p38%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%reifiedTypeNode(ps,pd)
+p39%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%callOrTreeNode(ph, cs, kp)
+p4%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodePlus(_,_)
+p40%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%varBecomesNode(n, l, cp, nid)
+p41%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%asTypeNode(nt, cp)
+p42%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%deepNode(cp)
+p43%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%antiNode(cp)
+p44%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%tvarBecomesNode(nt, n, l, cp, nid)
+p45%BindResult bind(PatternTree pt, Symbol rt, Configuration c, map[str,Symbol] bindings = ( ))%concreteSyntaxNode(nt,plist)
+p46%ATResult buildAssignableTree(Assignable assn:(Assignable)`(<Assignable ar>)`, bool top, Configuration c)%(Expression)`<DecimalIntegerLiteral dil>`
+p47%ATResult buildAssignableTree(Assignable assn:(Assignable)`(<Assignable ar>)`, bool top, Configuration c)%(OptionalExpression)`<Expression eFirst>`
+p48%ATResult buildAssignableTree(Assignable assn:(Assignable)`(<Assignable ar>)`, bool top, Configuration c)%(OptionalExpression)`<Expression eLast>`
+p49%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%mapNodeInfo(d,_)
+p5%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodePlus(_,_,_,_)
+p50%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%mapNodeInfo(_,r)
+p51%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%mapNodeInfo(d,r)
+p52%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%\label(_,v)
+p53%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%/PatternTree pti:callOrTreeNode(PatternTree ptih,_,_)
+p54%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%/PatternTree pti
+p55%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%/PatternTree ptnode
+p56%CheckResult calculatePatternType(Pattern pat, Configuration c, Symbol subjects...)%/ptn:callOrTreeNode(ph,pargs,kpargs)
+p57%Module check(Module m, PathConfig pcfg)%overload(items,_)
+p58%Module check(Module m, PathConfig pcfg)%datatype(_,_,_,_,ats)
+p59%Module check(Module m, PathConfig pcfg)%sorttype(_,_,_,ats)
+p6%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodeStar(_,_)
+p60%CheckResult checkAssignment(Assignment assn:(Assignment)`?=`, Assignable a, Symbol st, loc l, Configuration c)%/AssignableTree ati
+p61%CheckResult checkAssignment(Assignment assn:(Assignment)`?=`, Assignable a, Symbol st, loc l, Configuration c)%/AssignableTree atnode
+p62%CheckResult checkBooleanOpsWithMerging(Expression exp, Expression e1, Expression e2, str opname, Configuration c)%variable(vn,ltype,linf,lin,lloc)
+p63%CheckResult checkBooleanOpsWithMerging(Expression exp, Expression e1, Expression e2, str opname, Configuration c)%variable(vn,rtype,rinf,rin,rloc)
+p64%Configuration checkCatch(Catch ctch:(Catch)`catch : <Statement body>`, Configuration c)%(Pattern)`<QualifiedName qn>`
+p65%Configuration checkConstructorKeywordParams(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> data <UserType ut> <CommonKeywordParameters commonParams> = <{Variant "|"}+ vs>;`, Configuration c)%(CommonKeywordParameters)`( <{KeywordFormal ","}+ kfs> )`
+p66%Configuration checkConstructorKeywordParams(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> data <UserType ut> <CommonKeywordParameters commonParams> = <{Variant "|"}+ vs>;`, Configuration c)%(KeywordFormals)`<OptionalComma _> <{KeywordFormal ","}+ keywordFormalList>`
+p67%Configuration checkDeclaration(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`, bool descend, Configuration c)%error(_,l)
+p68%Configuration checkDeclaration(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`, bool descend, Configuration c)%(Variable)`<Name n> = <Expression init>`
+p69%Configuration checkDeclaration(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`, bool descend, Configuration c)%(Variable)`<Name n>`
+p7%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%spliceNodeStar(_,_,_,_)
+p70%Configuration checkDeclaration(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`, bool descend, Configuration c)%(Variable)`<Name _> = <Expression init>`
+p71%Configuration checkDeclaration(Declaration decl:(Declaration)`<Tags tags> <Visibility vis> <Type t> <{Variable ","}+ vars>;`, bool descend, Configuration c)%\user(_,_)
+p72%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(Label)`<Name n> :`
+p73%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%hole(\one(Sym s, Name n))
+p74%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(KeywordArguments[Expression])`<OptionalComma oc> <{KeywordArgument[Expression] ","}+ kargs>`
+p75%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(Mapping[Expression])`<Expression ed> : <Expression er>`
+p76%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(Expression)`_`
+p77%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%\label(_,rft)
+p78%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(OptionalExpression)`<Expression efirst>`
+p79%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(OptionalExpression)`<Expression elast>`
+p8%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%negativeNode(ptc)
+p80%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(Field)`<IntegerLiteral il>`
+p81%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%(Field)`<Name fn>`
+p82%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%\label(s,ltype)
+p83%CheckResult checkExp(Expression exp:(Expression)`{ <Statement+ ss> }`, Configuration c)%\label(s,_)
+p84%CheckResult checkFormals((Formals)`<{Pattern ","}* ps>`, bool isVarArgs, Configuration c)%(Pattern)`<Type pt> <Name pn>`
+p85%Configuration checkFunctionDeclaration(FunctionDeclaration fd:(FunctionDeclaration)`<Tags tags> <Visibility vis> <Signature sig>;`, bool descend, Configuration c)%(FunctionBody)`{ <Statement* ss> }`
+p86%CheckResult checkLiteral(Literal l:(Literal)`<IntegerLiteral il>`, Configuration c)%\appl(\prod(lex("RegExp"),[_,\lex("Name"),_],_),list[Tree] prds)
+p87%CheckResult checkLiteral(Literal l:(Literal)`<IntegerLiteral il>`, Configuration c)%\appl(\prod(lex("RegExp"),[_,\lex("Name"),_,_,_],_),list[Tree] prds)
+p88%CheckResult checkLiteral(Literal l:(Literal)`<IntegerLiteral il>`, Configuration c)%\appl(\prod(lex("NamedRegExp"),[_,\lex("Name"),_],_),list[Tree] prds)
+p89%CheckResult checkLocationLiteral(LocationLiteral ll, Configuration c)%prod(\label(_,\sort("Expression")),_,_)
+p9%tuple[PatternTree,Configuration] assignInitialPatternTypes(PatternTree pt, Configuration c)%tupleNode(ptl)
+p90%CheckResult checkLocationLiteral(LocationLiteral ll, Configuration c)%(Expression)`<Expression ipee>`
+p91%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Import)`extend <ImportedModule _>;`
+p92%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Import)`import <ImportedModule im>;`
+p93%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Import)`extend <ImportedModule im>;`
+p94%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%component(mns)
+p95%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%singleton(mn)
+p96%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Body)`<Toplevel* tls>`
+p97%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Toplevel)`<Declaration decl>`
+p98%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> <Type _> <{Variable ","}+ _> ;`
+p99%Configuration checkModule(lang::rascal::\syntax::Rascal::Module md:(Module)`<Header header> <Body body>`, Configuration c, bool forceCheck = false, bool verbose = false)%(Declaration)`<Tags _> <Visibility _> anno <Type _> <Type _>@<Name _>;`
+Unique pattern count: 163
+ok
+[0;1mrascal>[22;0m

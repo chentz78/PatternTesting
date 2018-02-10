@@ -1,0 +1,50 @@
+termSet	nil
+NTSet	nil
+GenRunner.runGFile:Config	{[FuncMeta]="function: 0x7fcfa9c3af70", [FuncResult]="function: 0x7fcfa9c3b880", [altStartSymbol]="Tags", [coverageCrit]="productionCoverage", [maxCycles]="1", [maxCyclesOp]="1", [maxDerivLen]="7", [maxDerivLenFinal]="4", [quietExec]="false", [transGrammarCache]="false", [useMinTSortAlts]="false", [useRandomAlts]="false"}
+genCustom:runConf	{[FuncMeta]="function: 0x7fcfa9c3af70", [FuncResult]="function: 0x7fcfa9c3b880", [altStartSymbol]="Tags", [coverageCrit]="productionCoverage", [maxCycles]="1", [maxCyclesOp]="1", [maxDerivLen]="7", [maxDerivLenFinal]="4", [quietExec]="false", [transGrammarCache]="false", [useMinTSortAlts]="false", [useRandomAlts]="false"}
+genCustom: Min. Tree Height info is missed!
+ProductionCoverage.initGen	1	7
+There are warnings about the grammar elements!
+{[1]="Some non-terminals are defined but not used."}
+{'Assoc#1','Assoc#2','Assoc#3','Assoc#4','Body#1','Command#1','Command#2','Command#3','Command#4','Command#5','Commands#1','Comment#1','CommonKeywordParameters#1','CommonKeywordParameters#2','Declaration#1','Declaration#2','Declaration#3','Declaration#4','Declaration#5','Declaration#6','Declaration#7','EvalCommand#1','EvalCommand#2','EvalCommand#3','EvalCommand#4','Header#1','Header#2','Import#1','Import#2','Import#3','Import#4','ImportedModule#1','ImportedModule#2','ImportedModule#3','ImportedModule#4','KeywordArgument#1','KeywordFormal#1','Kind#1','Kind#2','Kind#3','Kind#4','Kind#5','Kind#6','Kind#7','Kind#8','Kind#9','Module#1','ModuleActuals#1','ModuleParameters#1','Output#1','Prod#1','Prod#2','Prod#3','Prod#4','Prod#5','Prod#6','Prod#7','ProdModifier#1','ProdModifier#2','ProdModifier#3','RascalKeywords#1','RascalKeywords#10','RascalKeywords#11','RascalKeywords#12','RascalKeywords#13','RascalKeywords#14','RascalKeywords#15','RascalKeywords#16','RascalKeywords#17','RascalKeywords#18','RascalKeywords#19','RascalKeywords#2','RascalKeywords#20','RascalKeywords#21','RascalKeywords#22','RascalKeywords#23','RascalKeywords#24','RascalKeywords#25','RascalKeywords#26','RascalKeywords#27','RascalKeywords#28','RascalKeywords#29','RascalKeywords#3','RascalKeywords#30','RascalKeywords#31','RascalKeywords#32','RascalKeywords#33','RascalKeywords#34','RascalKeywords#35','RascalKeywords#36','RascalKeywords#37','RascalKeywords#38','RascalKeywords#39','RascalKeywords#4','RascalKeywords#40','RascalKeywords#41','RascalKeywords#42','RascalKeywords#43','RascalKeywords#44','RascalKeywords#45','RascalKeywords#46','RascalKeywords#47','RascalKeywords#48','RascalKeywords#49','RascalKeywords#5','RascalKeywords#50','RascalKeywords#51','RascalKeywords#52','RascalKeywords#53','RascalKeywords#54','RascalKeywords#55','RascalKeywords#56','RascalKeywords#57','RascalKeywords#58','RascalKeywords#59','RascalKeywords#6','RascalKeywords#60','RascalKeywords#61','RascalKeywords#62','RascalKeywords#63','RascalKeywords#64','RascalKeywords#65','RascalKeywords#66','RascalKeywords#67','RascalKeywords#68','RascalKeywords#69','RascalKeywords#7','RascalKeywords#70','RascalKeywords#71','RascalKeywords#72','RascalKeywords#8','RascalKeywords#9','Renaming#1','Renamings#1','ShellCommand#1','ShellCommand#10','ShellCommand#11','ShellCommand#2','ShellCommand#3','ShellCommand#4','ShellCommand#5','ShellCommand#6','ShellCommand#7','ShellCommand#8','ShellCommand#9','Start#1','Start#2','SyntaxDefinition#1','SyntaxDefinition#2','SyntaxDefinition#3','SyntaxDefinition#4','Toplevel#1','Variant#1'}
+ProductionCoverage.initGen	Time to the function:	4.031866
+Sent. Count:	0
+ProductionCoverage{0}
+Sent. Num:	10
+Sent. Num:	20
+Sent. Num:	30
+Sent. Num:	40
+Sent. Num:	50
+Sent. Num:	60
+Sent. Count:	1500
+ProductionCoverage{0}
+Sent. Num:	70
+genCustom: rslFunc break the gen.!	70	@ <NAME> = { assert (   ) {  } ; }
+--------Starting Debug information-------
+Debug useMStorage:	false
+Debug useMinTSortAlts:	false
+Debug useRandomAlts:	false
+Debug useMinTSortNT:	false
+Debug non_terminal:   time: 0.231143, global perc.: 10.071, count: 20866 and use memoize: 0
+Debug >>Decision      time: 0.190451, local  perc.: 82.395 and count: 20866
+Debug Seq:            time: 0.079059, global perc.: 3.445, count: 23670 and use memoize: false
+Debug Alt:            time: 1.327633, global perc.: 57.844, count: 1437 and use memoize: 0
+Debug >>Check Patt.   time: 0.044032, local  perc.: 3.317 and count: 1437
+Debug Terminal:       time: 0.066951, global perc.: 2.917, count: 14860 and use memoize: false
+Debug Kleene:         time: 0.008617, global perc.: 0.375, count: 2478 and use memoize: false
+Debug AllMeasurement: time: 1.713403 and global perc.: 74.652
+Debug Total S. Processing : 0.026319 and global perc.: 1.147
+Debug Total Gen.      time: 2.29520
+Debug Gen.            rate: 30.50 sent./time unit
+Debug Gen. rate (Gen+Disc): 654.41 sent./time unit
+Debug NTExp Discard: 17070, call perc.: 81.808
+Debug Memory usage:  18765.83 Kbytes
+----------End Debug----------------------
+Num. Sentences: 70
+Highest Deriv. Tree: 7
+Disc. Sentences: 1432
+ProductionCoverage.finalizeGen	ProductionCoverage{24.668435013263}
+Sent. Number:	70
+NT List:	{'BasicType','CaseInsensitiveStringConstant','Class','Concrete','ConcreteHole','ConcretePart','DecimalIntegerLiteral','Expression','Formals','HexIntegerLiteral','IntegerLiteral','KeywordFormals','LAYOUT','LAYOUTLIST','Name','Nonterminal','NonterminalLabel','OctalIntegerLiteral','Parameters','Statement','StringCharacter','StringConstant','Sym','Tag','Tags','TagString','Type'}
+CCriterion Global Coverage:	24.668435013263
+CCriterion Relative Coverage:	24.668435013263
